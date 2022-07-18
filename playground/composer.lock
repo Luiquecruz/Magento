@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "914087e512af6a559a7895d6310b69a6",
+    "content-hash": "44f2964ccc1490c6f959adf6434e1802",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -26294,6 +26294,52 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
+        },
+        {
+            "name": "vpietri/adm-quickdevbar",
+            "version": "0.1.18.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vpietri/magento2-developer-quickdevbar.git",
+                "reference": "e6a561db8eb98635d27e69032835b0f930370b99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vpietri/magento2-developer-quickdevbar/zipball/e6a561db8eb98635d27e69032835b0f930370b99",
+                "reference": "e6a561db8eb98635d27e69032835b0f930370b99",
+                "shasum": ""
+            },
+            "require": {
+                "magento/magento-composer-installer": "*",
+                "php": "~5.5|~5.6|~7.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "ADM\\QuickDevBar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vincent Pietri",
+                    "homepage": "http://www.vincent-pietri.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "QuickDevBar is a developer toolbar for magento 2",
+            "support": {
+                "issues": "https://github.com/vpietri/magento2-developer-quickdevbar/issues",
+                "source": "https://github.com/vpietri/magento2-developer-quickdevbar/tree/0.1.18.1"
+            },
+            "time": "2021-10-28T20:07:41+00:00"
         },
         {
             "name": "weew/helpers-array",
