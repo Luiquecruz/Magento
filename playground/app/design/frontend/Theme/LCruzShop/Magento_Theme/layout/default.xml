@@ -3,7 +3,9 @@
     <body>
         <referenceBlock name="logo">
             <arguments>
-                <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
+                <argument name="logo_file" xsi:type="string">images/shop-logo.svg</argument>
+                <argument name="logo_width" xsi:type="number">68</argument>
+                <argument name="logo_height" xsi:type="number">68</argument>
                 <argument name="logo_alt" xsi:type="string">logo</argument>
             </arguments>
         </referenceBlock>
